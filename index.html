@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty API</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/theme.css">
+    <script src="./JavaScript/script.js" defer></script>
+    <script src="./JavaScript/theme.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <nav>
+            <ul class="header-nav">
+                <li> <a href="./index.html">Gallery</a></li>
+                <li> <a href="./random-character.html">Random character</a></li>
+                <li> <a href="./favorities.html">Favorite</a></li>
+            </ul>
+        </nav>
+        <div data-theme="light" class="theme">
+            <p class="app-title"><span id="current-theme">Light</span> Theme</p>
+            <button class="toggle-button" id="toggle-theme">Change</button>
+        </div>
+    </header>
+
+    <main>
+    <h1 class="raw-title">Total characters: <span id="total-characters">loading...</span></h1>
+    
+    <div class="container" id="container">
+     
+    </div>
+    </main>
+    <div class="pagination">
+        <button id="load-more">Load more...</button>
+    </div>
+</body>
+</html>
